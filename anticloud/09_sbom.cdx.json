@@ -1,0 +1,277 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:3c66bcff-cdd2-509d-9162-ea99fb85c444",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-10-06T06:49:16Z",
+    "component": {
+      "type": "application",
+      "name": "BIMSERVER",
+      "version": "83b357604d34",
+      "bom-ref": "pkg:generic/anticloud/BIMSERVER@83b357604d34",
+      "purl": "pkg:generic/anticloud/BIMSERVER@83b357604d34",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ]
+    },
+    "properties": [
+      {
+        "name": "anticloud:source-commit",
+        "value": ""
+      },
+      {
+        "name": "anticloud:source-url",
+        "value": "https://github.com/the-anticloud/OPENMRS_CORE.git"
+      },
+      {
+        "name": "anticloud:tier",
+        "value": "tier-agent"
+      }
+    ]
+  },
+  "components": [
+    {
+      "type": "library",
+      "name": "browserify",
+      "version": "^14.4.0",
+      "purl": "pkg:npm/browserify@^14.4.0",
+      "bom-ref": "npm/browserify@^14.4.0"
+    },
+    {
+      "type": "library",
+      "name": "gulp",
+      "version": "^3.9.1",
+      "purl": "pkg:npm/gulp@^3.9.1",
+      "bom-ref": "npm/gulp@^3.9.1"
+    },
+    {
+      "type": "library",
+      "name": "gulp-typescript",
+      "version": "^3.2.1",
+      "purl": "pkg:npm/gulp-typescript@^3.2.1",
+      "bom-ref": "npm/gulp-typescript@^3.2.1"
+    },
+    {
+      "type": "library",
+      "name": "tsify",
+      "version": "^3.0.1",
+      "purl": "pkg:npm/tsify@^3.0.1",
+      "bom-ref": "npm/tsify@^3.0.1"
+    },
+    {
+      "type": "library",
+      "name": "typescript",
+      "version": "^2.4.2",
+      "purl": "pkg:npm/typescript@^2.4.2",
+      "bom-ref": "npm/typescript@^2.4.2"
+    },
+    {
+      "type": "library",
+      "name": "vinyl-source-stream",
+      "version": "^1.1.0",
+      "purl": "pkg:npm/vinyl-source-stream@^1.1.0",
+      "bom-ref": "npm/vinyl-source-stream@^1.1.0"
+    },
+    {
+      "type": "library",
+      "name": "watchify",
+      "version": "^3.9.0",
+      "purl": "pkg:npm/watchify@^3.9.0",
+      "bom-ref": "npm/watchify@^3.9.0"
+    },
+    {
+      "type": "library",
+      "name": "axios",
+      "version": "^0.16.2",
+      "purl": "pkg:npm/axios@^0.16.2",
+      "bom-ref": "npm/axios@^0.16.2"
+    },
+    {
+      "type": "library",
+      "name": "cross-env",
+      "version": "^5.0.1",
+      "purl": "pkg:npm/cross-env@^5.0.1",
+      "bom-ref": "npm/cross-env@^5.0.1"
+    },
+    {
+      "type": "library",
+      "name": "element-ui",
+      "version": "^1.4.4",
+      "purl": "pkg:npm/element-ui@^1.4.4",
+      "bom-ref": "npm/element-ui@^1.4.4"
+    },
+    {
+      "type": "library",
+      "name": "jsonwebtoken",
+      "version": "^8.0.1",
+      "purl": "pkg:npm/jsonwebtoken@^8.0.1",
+      "bom-ref": "npm/jsonwebtoken@^8.0.1"
+    },
+    {
+      "type": "library",
+      "name": "koa",
+      "version": "^2.3.0",
+      "purl": "pkg:npm/koa@^2.3.0",
+      "bom-ref": "npm/koa@^2.3.0"
+    },
+    {
+      "type": "library",
+      "name": "koa-bodyparser",
+      "version": "^4.2.0",
+      "purl": "pkg:npm/koa-bodyparser@^4.2.0",
+      "bom-ref": "npm/koa-bodyparser@^4.2.0"
+    },
+    {
+      "type": "library",
+      "name": "koa-router",
+      "version": "^7.2.1",
+      "purl": "pkg:npm/koa-router@^7.2.1",
+      "bom-ref": "npm/koa-router@^7.2.1"
+    },
+    {
+      "type": "library",
+      "name": "md5",
+      "version": "^2.2.1",
+      "purl": "pkg:npm/md5@^2.2.1",
+      "bom-ref": "npm/md5@^2.2.1"
+    },
+    {
+      "type": "library",
+      "name": "nuxt",
+      "version": "^1.0.0-rc11",
+      "purl": "pkg:npm/nuxt@^1.0.0-rc11",
+      "bom-ref": "npm/nuxt@^1.0.0-rc11"
+    },
+    {
+      "type": "library",
+      "name": "realm",
+      "version": "^1.12.0",
+      "purl": "pkg:npm/realm@^1.12.0",
+      "bom-ref": "npm/realm@^1.12.0"
+    },
+    {
+      "type": "library",
+      "name": "source-map-support",
+      "version": "^0.4.15",
+      "purl": "pkg:npm/source-map-support@^0.4.15",
+      "bom-ref": "npm/source-map-support@^0.4.15"
+    },
+    {
+      "type": "library",
+      "name": "three",
+      "version": "^0.87.1",
+      "purl": "pkg:npm/three@^0.87.1",
+      "bom-ref": "npm/three@^0.87.1"
+    },
+    {
+      "type": "library",
+      "name": "transform-runtime",
+      "version": "^0.0.0",
+      "purl": "pkg:npm/transform-runtime@^0.0.0",
+      "bom-ref": "npm/transform-runtime@^0.0.0"
+    },
+    {
+      "type": "library",
+      "name": "tween.js",
+      "version": "^16.6.0",
+      "purl": "pkg:npm/tween.js@^16.6.0",
+      "bom-ref": "npm/tween.js@^16.6.0"
+    },
+    {
+      "type": "library",
+      "name": "uuid",
+      "version": "^3.1.0",
+      "purl": "pkg:npm/uuid@^3.1.0",
+      "bom-ref": "npm/uuid@^3.1.0"
+    },
+    {
+      "type": "library",
+      "name": "babel-eslint",
+      "version": "^7.1.1",
+      "purl": "pkg:npm/babel-eslint@^7.1.1",
+      "bom-ref": "npm/babel-eslint@^7.1.1"
+    },
+    {
+      "type": "library",
+      "name": "backpack-core",
+      "version": "^0.3.0",
+      "purl": "pkg:npm/backpack-core@^0.3.0",
+      "bom-ref": "npm/backpack-core@^0.3.0"
+    },
+    {
+      "type": "library",
+      "name": "eslint",
+      "version": "^3.13.1",
+      "purl": "pkg:npm/eslint@^3.13.1",
+      "bom-ref": "npm/eslint@^3.13.1"
+    },
+    {
+      "type": "library",
+      "name": "eslint-config-standard",
+      "version": "^10.2.1",
+      "purl": "pkg:npm/eslint-config-standard@^10.2.1",
+      "bom-ref": "npm/eslint-config-standard@^10.2.1"
+    },
+    {
+      "type": "library",
+      "name": "eslint-plugin-html",
+      "version": "^2.0.3",
+      "purl": "pkg:npm/eslint-plugin-html@^2.0.3",
+      "bom-ref": "npm/eslint-plugin-html@^2.0.3"
+    },
+    {
+      "type": "library",
+      "name": "eslint-plugin-import",
+      "version": "^2.2.0",
+      "purl": "pkg:npm/eslint-plugin-import@^2.2.0",
+      "bom-ref": "npm/eslint-plugin-import@^2.2.0"
+    },
+    {
+      "type": "library",
+      "name": "eslint-plugin-node",
+      "version": "^4.2.2",
+      "purl": "pkg:npm/eslint-plugin-node@^4.2.2",
+      "bom-ref": "npm/eslint-plugin-node@^4.2.2"
+    },
+    {
+      "type": "library",
+      "name": "eslint-plugin-promise",
+      "version": "^3.4.0",
+      "purl": "pkg:npm/eslint-plugin-promise@^3.4.0",
+      "bom-ref": "npm/eslint-plugin-promise@^3.4.0"
+    },
+    {
+      "type": "library",
+      "name": "eslint-plugin-standard",
+      "version": "^3.0.1",
+      "purl": "pkg:npm/eslint-plugin-standard@^3.0.1",
+      "bom-ref": "npm/eslint-plugin-standard@^3.0.1"
+    },
+    {
+      "type": "library",
+      "name": "nodemon",
+      "version": "^1.11.0",
+      "purl": "pkg:npm/nodemon@^1.11.0",
+      "bom-ref": "npm/nodemon@^1.11.0"
+    },
+    {
+      "type": "library",
+      "name": "scmp",
+      "version": "^2.0.0",
+      "purl": "pkg:npm/scmp@^2.0.0",
+      "bom-ref": "npm/scmp@^2.0.0"
+    },
+    {
+      "type": "library",
+      "name": "uglifyjs-webpack-plugin",
+      "version": "^0.4.6",
+      "purl": "pkg:npm/uglifyjs-webpack-plugin@^0.4.6",
+      "bom-ref": "npm/uglifyjs-webpack-plugin@^0.4.6"
+    }
+  ]
+}
