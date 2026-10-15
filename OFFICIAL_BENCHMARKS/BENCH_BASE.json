@@ -1,0 +1,715 @@
+{
+ "schema": "anticloud.tier-bench/1",
+ "project": "BIMSERVER",
+ "source": {
+  "repo_path": "E:\\fenta\\Downloads\\The Anticloud\\ANTICLOUD_REPOS\\ARCHITECTURAL_DESIGN\\BIMSERVER\\UPSTREAM_CLONE",
+  "git": {
+   "head": null,
+   "url": null,
+   "branch": "master",
+   "committed_at": "2026-09-29T11:06:59+04:00",
+   "sha_unverified": true,
+   "note": "prior contamination (OPENMRS parent SHA + embedded token) removed; resolve via GitHub API before quoting"
+  }
+ },
+ "metrics": {
+  "files_total": 72,
+  "source_files_scanned": 29,
+  "lines_of_code": 7561,
+  "languages": {
+   ".js": 28,
+   ".vue": 10,
+   ".mx": 6,
+   ".json": 5,
+   "(none)": 4,
+   ".lock": 4,
+   ".md": 3,
+   ".ts": 2,
+   ".html": 2,
+   ".realm": 2,
+   ".zip": 2,
+   ".ico": 1,
+   ".gif": 1,
+   ".png": 1,
+   ".css": 1
+  }
+ },
+ "licence": {
+  "spdx": "MIT",
+  "class": "A",
+  "source_file": "LICENSE",
+  "redistribution_allowed": true
+ },
+ "dependencies": {
+  "count": 34,
+  "unique": 34,
+  "by_ecosystem": {
+   "npm": 34
+  },
+  "list": [
+   {
+    "ecosystem": "npm",
+    "name": "browserify",
+    "version": "^14.4.0",
+    "source_file": "WebGLEngine/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "gulp",
+    "version": "^3.9.1",
+    "source_file": "WebGLEngine/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "gulp-typescript",
+    "version": "^3.2.1",
+    "source_file": "WebGLEngine/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "tsify",
+    "version": "^3.0.1",
+    "source_file": "WebGLEngine/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "typescript",
+    "version": "^2.4.2",
+    "source_file": "WebGLEngine/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "vinyl-source-stream",
+    "version": "^1.1.0",
+    "source_file": "WebGLEngine/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "watchify",
+    "version": "^3.9.0",
+    "source_file": "WebGLEngine/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "axios",
+    "version": "^0.16.2",
+    "source_file": "BIMServerSrc/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "cross-env",
+    "version": "^5.0.1",
+    "source_file": "BIMServerSrc/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "element-ui",
+    "version": "^1.4.4",
+    "source_file": "BIMServerSrc/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "jsonwebtoken",
+    "version": "^8.0.1",
+    "source_file": "BIMServerSrc/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "koa",
+    "version": "^2.3.0",
+    "source_file": "BIMServerSrc/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "koa-bodyparser",
+    "version": "^4.2.0",
+    "source_file": "BIMServerSrc/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "koa-router",
+    "version": "^7.2.1",
+    "source_file": "BIMServerSrc/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "md5",
+    "version": "^2.2.1",
+    "source_file": "BIMServerSrc/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "nuxt",
+    "version": "^1.0.0-rc11",
+    "source_file": "BIMServerSrc/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "realm",
+    "version": "^1.12.0",
+    "source_file": "BIMServerSrc/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "source-map-support",
+    "version": "^0.4.15",
+    "source_file": "BIMServerSrc/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "three",
+    "version": "^0.87.1",
+    "source_file": "BIMServerSrc/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "transform-runtime",
+    "version": "^0.0.0",
+    "source_file": "BIMServerSrc/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "tween.js",
+    "version": "^16.6.0",
+    "source_file": "BIMServerSrc/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "uuid",
+    "version": "^3.1.0",
+    "source_file": "BIMServerSrc/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "babel-eslint",
+    "version": "^7.1.1",
+    "source_file": "BIMServerSrc/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "backpack-core",
+    "version": "^0.3.0",
+    "source_file": "BIMServerSrc/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "eslint",
+    "version": "^3.13.1",
+    "source_file": "BIMServerSrc/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "eslint-config-standard",
+    "version": "^10.2.1",
+    "source_file": "BIMServerSrc/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "eslint-plugin-html",
+    "version": "^2.0.3",
+    "source_file": "BIMServerSrc/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "eslint-plugin-import",
+    "version": "^2.2.0",
+    "source_file": "BIMServerSrc/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "eslint-plugin-node",
+    "version": "^4.2.2",
+    "source_file": "BIMServerSrc/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "eslint-plugin-promise",
+    "version": "^3.4.0",
+    "source_file": "BIMServerSrc/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "eslint-plugin-standard",
+    "version": "^3.0.1",
+    "source_file": "BIMServerSrc/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "nodemon",
+    "version": "^1.11.0",
+    "source_file": "BIMServerSrc/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "scmp",
+    "version": "^2.0.0",
+    "source_file": "BIMServerSrc/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "uglifyjs-webpack-plugin",
+    "version": "^0.4.6",
+    "source_file": "BIMServerSrc/package.json",
+    "raw": ""
+   }
+  ]
+ },
+ "owasp_top10": {
+  "total_findings": 6,
+  "files_with_findings": 5,
+  "severity": {
+   "high": 1,
+   "medium": 0,
+   "low": 5
+  },
+  "categories": {
+   "A01-BrokenAccessControl": {
+    "count": 0,
+    "findings": []
+   },
+   "A02-CryptographicFailures": {
+    "count": 0,
+    "findings": []
+   },
+   "A03-Injection": {
+    "count": 1,
+    "findings": [
+     {
+      "severity": "high",
+      "file": "BIMServerSrc/plugins/JSZip.js",
+      "line": 12,
+      "cwe": "CWE-89",
+      "snippet": "!function(a){if(\"object\"==typeof exports&&\"undefined\"!=typeof module)module.exports=a();else if(\"function\"==typeof define&&define.amd)define([],a);else{var b;b=\"undefined\"!=typeof "
+     }
+    ]
+   },
+   "A04-InsecureDesign": {
+    "count": 1,
+    "findings": [
+     {
+      "severity": "low",
+      "file": "BIMServerSrc/components/threeView/util.js",
+      "line": 245,
+      "cwe": "CWE-",
+      "snippet": "* canvasHandleClick - \u6a21\u578b\u70b9\u51fb\u4e8b\u4ef6 todo:if \u592a\u591a\u9700\u8981\u4f18\u5316"
+     }
+    ]
+   },
+   "A05-SecurityMisconfiguration": {
+    "count": 0,
+    "findings": []
+   },
+   "A06-VulnerableComponents": {
+    "count": 0,
+    "findings": []
+   },
+   "A07-AuthFailures": {
+    "count": 0,
+    "findings": []
+   },
+   "A08-SoftwareDataIntegrity": {
+    "count": 4,
+    "findings": [
+     {
+      "severity": "low",
+      "file": "BIMServerSrc/plugins/axios-config.js",
+      "line": 2,
+      "cwe": "CWE-319",
+      "snippet": "const apiUrl = 'http://localhost:3000/';"
+     },
+     {
+      "severity": "low",
+      "file": "BIMServerSrc/plugins/JSZip.js",
+      "line": 4,
+      "cwe": "CWE-319",
+      "snippet": "<http://stuartk.com/jszip>"
+     },
+     {
+      "severity": "low",
+      "file": "BIMServerSrc/components/threeView/Octree.js",
+      "line": 6,
+      "cwe": "CWE-319",
+      "snippet": "* @author Collin Hover / http://collinhover.com/"
+     },
+     {
+      "severity": "low",
+      "file": "BIMServerSrc/components/threeView/TrackballControls.js",
+      "line": 2,
+      "cwe": "CWE-319",
+      "snippet": "* @author Eberhard Graether / http://egraether.com/"
+     }
+    ]
+   },
+   "A09-LoggingMonitoringFailures": {
+    "count": 0,
+    "findings": []
+   },
+   "A10-SSRF": {
+    "count": 0,
+    "findings": []
+   }
+  }
+ },
+ "owasp_llm_top10": {
+  "total_findings": 0,
+  "files_with_findings": 0,
+  "severity": {
+   "high": 0,
+   "medium": 0,
+   "low": 0
+  },
+  "categories": {
+   "LLM01-PromptInjection": {
+    "count": 0,
+    "findings": []
+   },
+   "LLM02-SensitiveInfoDisclosure": {
+    "count": 0,
+    "findings": []
+   },
+   "LLM03-SupplyChain": {
+    "count": 0,
+    "findings": []
+   },
+   "LLM04-DataPoisoning": {
+    "count": 0,
+    "findings": []
+   },
+   "LLM05-ImproperOutputHandling": {
+    "count": 0,
+    "findings": []
+   },
+   "LLM06-ExcessiveAgency": {
+    "count": 0,
+    "findings": []
+   },
+   "LLM07-SystemPromptLeak": {
+    "count": 0,
+    "findings": []
+   },
+   "LLM08-VectorEmbeddingWeaknesses": {
+    "count": 0,
+    "findings": []
+   },
+   "LLM09-Misinformation": {
+    "count": 0,
+    "findings": []
+   },
+   "LLM10-UnboundedConsumption": {
+    "count": 0,
+    "findings": []
+   }
+  }
+ },
+ "sbom": {
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:3c66bcff-cdd2-509d-9162-ea99fb85c444",
+  "version": 1,
+  "metadata": {
+   "timestamp": "2026-10-06T06:49:16Z",
+   "component": {
+    "type": "application",
+    "name": "BIMSERVER",
+    "version": "83b357604d34",
+    "bom-ref": "pkg:generic/anticloud/BIMSERVER@83b357604d34",
+    "purl": "pkg:generic/anticloud/BIMSERVER@83b357604d34",
+    "licenses": [
+     {
+      "license": {
+       "id": "MIT"
+      }
+     }
+    ]
+   },
+   "properties": [
+    {
+     "name": "anticloud:source-commit",
+     "value": ""
+    },
+    {
+     "name": "anticloud:source-url",
+     "value": "https://github.com/the-anticloud/OPENMRS_CORE.git"
+    },
+    {
+     "name": "anticloud:tier",
+     "value": "tier-agent"
+    }
+   ]
+  },
+  "components": [
+   {
+    "type": "library",
+    "name": "browserify",
+    "version": "^14.4.0",
+    "purl": "pkg:npm/browserify@^14.4.0",
+    "bom-ref": "npm/browserify@^14.4.0"
+   },
+   {
+    "type": "library",
+    "name": "gulp",
+    "version": "^3.9.1",
+    "purl": "pkg:npm/gulp@^3.9.1",
+    "bom-ref": "npm/gulp@^3.9.1"
+   },
+   {
+    "type": "library",
+    "name": "gulp-typescript",
+    "version": "^3.2.1",
+    "purl": "pkg:npm/gulp-typescript@^3.2.1",
+    "bom-ref": "npm/gulp-typescript@^3.2.1"
+   },
+   {
+    "type": "library",
+    "name": "tsify",
+    "version": "^3.0.1",
+    "purl": "pkg:npm/tsify@^3.0.1",
+    "bom-ref": "npm/tsify@^3.0.1"
+   },
+   {
+    "type": "library",
+    "name": "typescript",
+    "version": "^2.4.2",
+    "purl": "pkg:npm/typescript@^2.4.2",
+    "bom-ref": "npm/typescript@^2.4.2"
+   },
+   {
+    "type": "library",
+    "name": "vinyl-source-stream",
+    "version": "^1.1.0",
+    "purl": "pkg:npm/vinyl-source-stream@^1.1.0",
+    "bom-ref": "npm/vinyl-source-stream@^1.1.0"
+   },
+   {
+    "type": "library",
+    "name": "watchify",
+    "version": "^3.9.0",
+    "purl": "pkg:npm/watchify@^3.9.0",
+    "bom-ref": "npm/watchify@^3.9.0"
+   },
+   {
+    "type": "library",
+    "name": "axios",
+    "version": "^0.16.2",
+    "purl": "pkg:npm/axios@^0.16.2",
+    "bom-ref": "npm/axios@^0.16.2"
+   },
+   {
+    "type": "library",
+    "name": "cross-env",
+    "version": "^5.0.1",
+    "purl": "pkg:npm/cross-env@^5.0.1",
+    "bom-ref": "npm/cross-env@^5.0.1"
+   },
+   {
+    "type": "library",
+    "name": "element-ui",
+    "version": "^1.4.4",
+    "purl": "pkg:npm/element-ui@^1.4.4",
+    "bom-ref": "npm/element-ui@^1.4.4"
+   },
+   {
+    "type": "library",
+    "name": "jsonwebtoken",
+    "version": "^8.0.1",
+    "purl": "pkg:npm/jsonwebtoken@^8.0.1",
+    "bom-ref": "npm/jsonwebtoken@^8.0.1"
+   },
+   {
+    "type": "library",
+    "name": "koa",
+    "version": "^2.3.0",
+    "purl": "pkg:npm/koa@^2.3.0",
+    "bom-ref": "npm/koa@^2.3.0"
+   },
+   {
+    "type": "library",
+    "name": "koa-bodyparser",
+    "version": "^4.2.0",
+    "purl": "pkg:npm/koa-bodyparser@^4.2.0",
+    "bom-ref": "npm/koa-bodyparser@^4.2.0"
+   },
+   {
+    "type": "library",
+    "name": "koa-router",
+    "version": "^7.2.1",
+    "purl": "pkg:npm/koa-router@^7.2.1",
+    "bom-ref": "npm/koa-router@^7.2.1"
+   },
+   {
+    "type": "library",
+    "name": "md5",
+    "version": "^2.2.1",
+    "purl": "pkg:npm/md5@^2.2.1",
+    "bom-ref": "npm/md5@^2.2.1"
+   },
+   {
+    "type": "library",
+    "name": "nuxt",
+    "version": "^1.0.0-rc11",
+    "purl": "pkg:npm/nuxt@^1.0.0-rc11",
+    "bom-ref": "npm/nuxt@^1.0.0-rc11"
+   },
+   {
+    "type": "library",
+    "name": "realm",
+    "version": "^1.12.0",
+    "purl": "pkg:npm/realm@^1.12.0",
+    "bom-ref": "npm/realm@^1.12.0"
+   },
+   {
+    "type": "library",
+    "name": "source-map-support",
+    "version": "^0.4.15",
+    "purl": "pkg:npm/source-map-support@^0.4.15",
+    "bom-ref": "npm/source-map-support@^0.4.15"
+   },
+   {
+    "type": "library",
+    "name": "three",
+    "version": "^0.87.1",
+    "purl": "pkg:npm/three@^0.87.1",
+    "bom-ref": "npm/three@^0.87.1"
+   },
+   {
+    "type": "library",
+    "name": "transform-runtime",
+    "version": "^0.0.0",
+    "purl": "pkg:npm/transform-runtime@^0.0.0",
+    "bom-ref": "npm/transform-runtime@^0.0.0"
+   },
+   {
+    "type": "library",
+    "name": "tween.js",
+    "version": "^16.6.0",
+    "purl": "pkg:npm/tween.js@^16.6.0",
+    "bom-ref": "npm/tween.js@^16.6.0"
+   },
+   {
+    "type": "library",
+    "name": "uuid",
+    "version": "^3.1.0",
+    "purl": "pkg:npm/uuid@^3.1.0",
+    "bom-ref": "npm/uuid@^3.1.0"
+   },
+   {
+    "type": "library",
+    "name": "babel-eslint",
+    "version": "^7.1.1",
+    "purl": "pkg:npm/babel-eslint@^7.1.1",
+    "bom-ref": "npm/babel-eslint@^7.1.1"
+   },
+   {
+    "type": "library",
+    "name": "backpack-core",
+    "version": "^0.3.0",
+    "purl": "pkg:npm/backpack-core@^0.3.0",
+    "bom-ref": "npm/backpack-core@^0.3.0"
+   },
+   {
+    "type": "library",
+    "name": "eslint",
+    "version": "^3.13.1",
+    "purl": "pkg:npm/eslint@^3.13.1",
+    "bom-ref": "npm/eslint@^3.13.1"
+   },
+   {
+    "type": "library",
+    "name": "eslint-config-standard",
+    "version": "^10.2.1",
+    "purl": "pkg:npm/eslint-config-standard@^10.2.1",
+    "bom-ref": "npm/eslint-config-standard@^10.2.1"
+   },
+   {
+    "type": "library",
+    "name": "eslint-plugin-html",
+    "version": "^2.0.3",
+    "purl": "pkg:npm/eslint-plugin-html@^2.0.3",
+    "bom-ref": "npm/eslint-plugin-html@^2.0.3"
+   },
+   {
+    "type": "library",
+    "name": "eslint-plugin-import",
+    "version": "^2.2.0",
+    "purl": "pkg:npm/eslint-plugin-import@^2.2.0",
+    "bom-ref": "npm/eslint-plugin-import@^2.2.0"
+   },
+   {
+    "type": "library",
+    "name": "eslint-plugin-node",
+    "version": "^4.2.2",
+    "purl": "pkg:npm/eslint-plugin-node@^4.2.2",
+    "bom-ref": "npm/eslint-plugin-node@^4.2.2"
+   },
+   {
+    "type": "library",
+    "name": "eslint-plugin-promise",
+    "version": "^3.4.0",
+    "purl": "pkg:npm/eslint-plugin-promise@^3.4.0",
+    "bom-ref": "npm/eslint-plugin-promise@^3.4.0"
+   },
+   {
+    "type": "library",
+    "name": "eslint-plugin-standard",
+    "version": "^3.0.1",
+    "purl": "pkg:npm/eslint-plugin-standard@^3.0.1",
+    "bom-ref": "npm/eslint-plugin-standard@^3.0.1"
+   },
+   {
+    "type": "library",
+    "name": "nodemon",
+    "version": "^1.11.0",
+    "purl": "pkg:npm/nodemon@^1.11.0",
+    "bom-ref": "npm/nodemon@^1.11.0"
+   },
+   {
+    "type": "library",
+    "name": "scmp",
+    "version": "^2.0.0",
+    "purl": "pkg:npm/scmp@^2.0.0",
+    "bom-ref": "npm/scmp@^2.0.0"
+   },
+   {
+    "type": "library",
+    "name": "uglifyjs-webpack-plugin",
+    "version": "^0.4.6",
+    "purl": "pkg:npm/uglifyjs-webpack-plugin@^0.4.6",
+    "bom-ref": "npm/uglifyjs-webpack-plugin@^0.4.6"
+   }
+  ]
+ },
+ "elapsed_seconds": 1.02
+}
